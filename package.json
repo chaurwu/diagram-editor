@@ -1,0 +1,30 @@
+{
+  "name": "a1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mobx": "^4.2.0",
+    "mobx-react": "^5.0.0",
+    "mobx-react-devtools": "^5.0.1",
+    "mobx-state-tree": "^2.0.4",
+    "node-uuid": "^1.4.8",
+    "react": "^16.3.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-dom": "^16.3.2",
+    "react-draggable": "^3.0.5",
+    "react-scripts": "1.1.4",
+    "remotedev": "^0.2.7",
+    "ws": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "react-app-rewired": "^1.5.2"
+  }
+}
